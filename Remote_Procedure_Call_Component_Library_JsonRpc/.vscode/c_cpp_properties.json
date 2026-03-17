@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                // Muduo 库的绝对路径
+                "/home/zby/bitrpc/build/release-install-cpp11/include/",
+                "${workspaceFolder}/**  # 项目内所有头文件（递归搜索）",
+                "/usr/local/include/**  # 系统级头文件（可选）"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
